@@ -1,6 +1,11 @@
 import React from 'react'
 import { useState } from 'react';
 import './Product.scss';
+import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import BalanceIcon from "@mui/icons-material/Balance";
+
+
 export const Product = () => {
   const [selectedImg, setSelectedImg] = useState(0);
   const [quantity, setQuantity] = useState(0);
@@ -30,7 +35,7 @@ export const Product = () => {
           <button onClick={()=>setQuantity(prev=>prev+1)}>+</button>
         </div>
         <button className="add">
-          
+          <div className="extra"></div>
         </button>
       </div>
     </div>
