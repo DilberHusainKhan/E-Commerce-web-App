@@ -35,8 +35,11 @@ export const Product = () => {
           <button onClick={()=>setQuantity(prev=>prev+1)}>+</button>
         </div>
         <button className="add">
-          <div className="extra"></div>
+          <AddShoppingCartIcon/> ADD TO CART
         </button>
+        <div className="link">
+          
+        </div>
       </div>
     </div>
   )
