@@ -27,7 +27,7 @@ export const Product = () => {
       </div>
       <div className="right">
         <h1>Title</h1>
-        <span>$199</span>
+        <span className='price'>$199</span>
         <p>Dolor et takimata gubergren erat elitr rebum. Erat diam diam lorem et justo ea justo clita sanctus, kasd ut kasd.</p>
         <div className="quantity">
           <button onClick={()=>setQuantity(prev=>prev===0?0:prev-1)}>-</button>
@@ -38,7 +38,25 @@ export const Product = () => {
           <AddShoppingCartIcon/> ADD TO CART
         </button>
         <div className="link">
-          
+          <div className="item">
+            <FavoriteBorderIcon/>ADD TO WISH LIST
+          </div>
+          <div className="item">
+            <BalanceIcon/>ADD TO COMPARE
+          </div>
+        </div>
+        <div className="info">
+          <span>Vandor: Polo</span>
+          <span>Product Type: T-Shirt</span>
+          <span>Tag: T-Shirt, Women, Top</span>
+        </div>
+        <hr />
+        <div className="details">
+          <span>DESCRIPTION</span>
+          <hr />
+          <span>ADDITIONAL INFORMATION</span>
+          <hr />
+          <span>FAQ</span>
         </div>
       </div>
     </div>
