@@ -37,7 +37,7 @@ export const Product = () => {
         <button className="add">
           <AddShoppingCartIcon/> ADD TO CART
         </button>
-        <div className="link">
+        <div className="links">
           <div className="item">
             <FavoriteBorderIcon/>ADD TO WISH LIST
           </div>
@@ -51,7 +51,7 @@ export const Product = () => {
           <span>Tag: T-Shirt, Women, Top</span>
         </div>
         <hr />
-        <div className="details">
+        <div className="info">
           <span>DESCRIPTION</span>
           <hr />
           <span>ADDITIONAL INFORMATION</span>
