@@ -1,5 +1,4 @@
-dummy data  only for testing purpose
-only update 
+dummy data  only for testing purpose.
   const data =[{
     id:1,
     title:"Men",
