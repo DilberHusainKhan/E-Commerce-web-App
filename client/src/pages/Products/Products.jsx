@@ -54,7 +54,7 @@ const Products = () => {
         <div className="filterItem">
         <h2>Sort by</h2>
         <div className="inputItem">
-          <input type="radio" id="asc" value="asc" name= "price" onChange={(e)=>setSort("acs")}/>
+          <input type="radio" id="asc" value="asc" name= "price" onChange={(e)=>setSort("asc")}/>
           <label htmlfor="asc">Price (Lowest first)</label>
         </div>
         <div className="inputItem">

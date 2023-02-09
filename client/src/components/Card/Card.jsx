@@ -13,8 +13,8 @@ const Card = ({item}) => {
             </div>
             <h2>{item?.attributes.title}</h2>
             <div className="prices">
-                <h3> &#8377;{item.attributes.oldPrice*80||item?.attributes.price*80+100}</h3>
-                <h3> &#8377;{item?.attributes.price*80}</h3>
+                <h3> &#8377;{item.attributes.oldPrice||item?.attributes.price+100}</h3>
+                <h3> &#8377;{item?.attributes.price}</h3>
             </div>
         </div>
     </Link>
