@@ -56,7 +56,7 @@ export const Product = () => {
         <div className="quantity">
           <button onClick={()=>setQuantity(prev=>prev===0?0:prev-1)}>-</button>
           {quantity}
-          <button onClick={()=>setQuantity(prev=>prev+1)}>++</button>
+          <button onClick={()=>setQuantity(prev=>prev+1)}>+</button>
         </div>
         <button className="add">
           <AddShoppingCartIcon/> ADD TO CART
